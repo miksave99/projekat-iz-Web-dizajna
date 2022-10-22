@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+    <head>
+
+        <title>Početna</title>
+
+        <!-- Ikonica -->
+        <link rel="icon" href="slike/logo.png" type="image/gif" sizes="16x16">
+
+        <!-- Meta tagovi -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link href="css/sve.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+    
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-- Font-awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+
+        <!-- ======= Header ======= -->
+        <section class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 logo">
+                        <a href="index.html">
+                            <img src="slike/logo.png" alt="logo" width="120px" height="120px">
+                        </a>
+                    </div> 
+
+                    <div class="col">
+
+                    </div>
+
+                    <div class="col language">
+                        <div class="language-icon active" id="language-icon-sr">
+                            <a href="index.html">
+                                <img src="slike/jezici/sr.png" alt="srpska ikona">
+                            </a>
+                        </div>
+                        
+                        <div class="language-icon" id="language-icon-en">
+                            <a href="indexen.html">
+                                <img src="slike/jezici/en.png" alt="engleska ikona">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / Header -->
+
+        <!-- ======= Meni ======= -->
+        <section class="navigation-menu">
+            <nav class="navbar navbar-expand-md bg-dark">
+                <div class="container">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active text-center">
+                            <a class="link" href="index.html">Početna</a>
+                        </li>
+
+                        <li class="nav-item text-center">
+                            <a class="link" href="obanji.html">O banji</a>
+                        </li>
+
+                        <li class="nav-item text-center">
+                            <a class="link" href="lecenje.html">Lečenje</a>
+                        </li>
+
+                        <li class="nav-item text-center">
+                            <a class="link" href="rekreacija.html">Rekreacija</a>
+                        </li>
+
+                        <li class="nav-item text-center">
+                            <a class="link" href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div> 
+            </nav>
+        </section>
+        <!-- / Meni -->
+
+        <!-- ======= Slajder ======= -->
+        <section class="banner">
+            <div class="carousel slide" id="carouselExampleCaptions" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="slike/slajder/slide-1.jpeg" class="d-block w-100" alt="slide-1">
+                        <div class="carousel-caption d-block">
+                            <h1>Jošanička banja</h1>
+                            <p>Zelena kapija Kopaonika</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="slike/slajder/slide-2.jpeg" class="d-block w-100" alt="slide-2">
+                        <div class="carousel-caption d-block">
+                            <h1>Jošanička banja</h1>
+                            <p>Zelena kapija Kopaonika</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
+                </div>
+
+                <button type="button" class="carousel-control-prev" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Nazad</span>
+                </button>
+
+                <button type="button" class="carousel-control-next" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Napred</span>
+                </button>
+            </div>
+        </section>
+        <!-- / Slajder -->
+
+        <!-- ======= Posetite =======  -->
+        <section class="visit">
+            <div class="container pt-5 pb-5">
+                <div class="visit-title p-3">
+                    <h2>Posetite još i</h2>
+                </div>
+                
+                <div class="row mt-3">
+                    <!-- Rodna kuća Milunke Savić -->
+                    <div class="col-lg-3 col-md-6 visit-item">
+                        <div class="card mb-4 box-shadow">
+                            <div class="visit-wrap">
+                                <img src="slike/posetite/Kuća_Milunke_Savić.jpg" class="card-img-top" alt="Rodna kuća Milunke Savić">
+                                <div class="visit-info">
+                                    <button type="button" class="btn btn-success btn-md" data-bs-toggle="modal" data-bs-target="#visit1">Detaljnije</button>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <h5 class="card-title">Rodna kuća Milunke Savić</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / Rodna kuća Milunke Savić --> 
+                
+                    <!-- Turistički centar Kopaonik -->
+                    <div class="col-lg-3 col-md-6 visit-item">
+                        <div class="card mb-4 box-shadow">
+                            <div class="visit-wrap">
+                                <img src="slike/posetite/turisticki-centar-kopaonik.jpg" class="card-img-top" alt="Turistički centar Kopaonik">
+                                <div class="visit-info">
+                                    <button type="button" class="btn btn-success btn-md" data-bs-toggle="modal" data-bs-target="#visit2">Detaljnije</button>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <h5 class="card-title">Turistički centar Kopaonik</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / Turistički centar Kopaonik -->    
+
+                    <!-- Jezera u Čomagama -->
+                    <div class="col-lg-3 col-md-6 visit-item">
+                        <div class="card mb-4 box-shadow">
+                            <div class="visit-wrap">
+                                <img src="slike/posetite/Jezero-Čomage.jpg" class="card-img-top" alt="Jezera u Čomagama">
+                                <div class="visit-info">
+                                    <button type="button" class="btn btn-success btn-md" data-bs-toggle="modal" data-bs-target="#visit3">Detaljnije</button>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <h5 class="card-title">Jezera u Čomagama</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / Jezera u Čomagama --> 
+
+                    <!-- Manastir Studenica -->
+                    <div class="col-lg-3 col-md-6 visit-item">
+                        <div class="card mb-4 box-shadow">
+                            <div class="visit-wrap">
+                                <img src="slike/posetite/manastir-studenica.jpg" class="card-img-top" alt="Manastir Studenica">
+                                <div class="visit-info">
+                                    <button type="button" class="btn btn-success btn-md" data-bs-toggle="modal" data-bs-target="#visit4">Detaljnije</button>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <h5 class="card-title">Manastir Studenica</h5>
+                            </div>
+                        </div>
+                    </div>  
+                    <!-- / Manastir Studenica -->  
+                </div>
+
+                <!-- Modal 1 -->
+                <div class="modal fade" id="visit1" role="dialog" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-md">
+                        <div class="modal-content">
+                            <div class="modal-header text-center">
+                                <h5 class="modal-title">Rodna kuća Milunke Savić</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <div class="modal-body">      
+                                <p>
+                                    <b>Rodna kuća Milunke Savić</b> nalazi se u selu Koprivnica, 7 km udaljena od Jošaničke Banje. 
+                                    Do kuće se može doći makadamskim putem, terenskim vozilom ili pešaka 
+                                    (3 km od glavnog puta Biljanovac – Jošanička Banja).
+                                </p>
+                                <p> Obnovljena je tokom 2015. godine sredstvima Ministarstva kulture i informisanja Republike Srbije, 
+                                    na zahtev i pod nadzorom Zavoda za zaštitu spomenika kulture iz Kraljeva. 
+                                    U kući se nalazi etnološka postavka sa predmetima koji datiraju iz vremena kada je Mlunka Savić živela u Koprivnici (prva polovina XX veka).</p>
+                                <p> Deo programa manifestacije <b>"Dani Milunke Savić"</b>, koja je organizovana prvi put u oktobru 2016. godine, održava se ispred njene rodne kuće.</p> 
+                            </div>        
+                            
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Zatvori</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- / Modal 1 -->
+
+                <!-- Modal 2 -->
+                <div class="modal fade" id="visit2" role="dialog" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-md">
+                        <div class="modal-content">
+                            <div class="modal-header text-center">
+                                <h5 class="modal-title">Turistički centar Kopaonik</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <div class="modal-body">   
+                                <p>
+                                    Na 24km južno od Jošaničke banje nalazi se naš najpoznatiji turistički centar Kopaonik, 
+                                    koja ima reputaciju najatraktivnije zimske destinacije, 
+                                    ali je zahvaljujući razvoju niza pratećih sadržaja, sezona produžena na čitavu godinu.
+                                </p>
+                                <p>
+                                    <b>Turistički centar Kopaonik</b> tokom letnje turističke sezone pruža idealne uslove za aktivan i pasivan odmor.
+                                    Pored raznih vrsta rekreacije i fizičke aktivnosti, turisti mogu uživati u prirodnim lepotama i retkostima ove planine.
+                                    Sezona skijanja na Kopaoniku traje u proseku od decembra do maja, kada snežni ambijent zameni zelenilo planine, skijanje se nastavlja na veštačkoj letnjoj stazi.
+                                </p>
+                            </div>  
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Zatvori</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- / Modal 2 -->
+
+                <!-- Modal 3 -->
+                <div class="modal fade" id="visit3" role="dialog" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-md">
+                        <div class="modal-content">
+                            <div class="modal-header text-center">
+                                <h5 class="modal-title">Jezera u Čomagama</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <div class="modal-body">                      
+                                <p>
+                                    U gornjim Čomagama, u tanjirastoj vrtači, smešteno je urvinsko jezero orijentacionih dimenzija 60×35m. 
+                                    Od centra Jošaničke Banje udaljeno je 1.500 metara i smešteno na nadmorskoj visini od 650 metara 
+                                    u podnožju borove šume Borjak (rezervat Nacionalnog parka Kopaonik). 
+                                    Obraslo je barskom vegetacijom, dok okolinu jezera čine bujne livade i pašnjaci, 
+                                    pa bi se moglo iskoristiti u izletničke i rekreacione svrhe.
+                                </p>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Zatvori</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- / Modal 3 -->
+
+                <!-- Modal 4 -->
+                <div class="modal fade" id="visit4" role="dialog" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-md">
+                        <div class="modal-content">
+                            <div class="modal-header text-center">
+                                <h5 class="modal-title">Manastir Studenica</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <div class="modal-body">                        
+                                <p> <b>Manastir Studenica</b> je manastir Srpske pravoslavne crkve. 
+                                    Pripada Eparhiji žičkoj Srpske pravoslavne crkve.
+                                    Nalazi se na 57 km južno od Kraljeva, i na 44 km severno od Raške.</p>
+                                <p> Osnovao ga je srpski župan Stefan Nemanja 1186. godine.
+                                    Godine 1206. na mesto igumana dolazi princ Rastko — u monaštvu prvi arhiepiskop srpski, Sveti Sava 
+                                    — i pod njegovim starateljstvom Studenica postaje kulturni, umetnički, medicinski i duhovni centar srpske države.
+                                </p>
+                            </div>
+                                
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Zatvori</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- / Modal 4 -->
+            </div>
+        </section>
+        <!-- / Posetite -->
+
+        <!-- ======= Footer ======= -->
+        <section class="footer bg-dark">
+            <div class="container">
+                <div class="copyright">
+                    <a class="footer" href="vue.html">&copy; 2022, Mihajlo Veljković</a>
+                </div>
+            </div>
+        </section>
+        <!-- / Footer -->
+    </body>
+</html>

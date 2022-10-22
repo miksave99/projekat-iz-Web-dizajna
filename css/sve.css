@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Jost', sans-serif;
+}
+
+.top-header {
+    background-color: #dbe7db;
+}
+
+.top-header .container {
+    padding: 5px;
+}
+
+.top-header .logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.top-header .language {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language .language-icon {
+    padding: 0 8px;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.navbar ul li {
+    width: 20%;
+}
+
+.navbar .link {
+    padding: 0.5rem 1rem;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar .link:hover {
+    font-weight: bold;
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.navbar .active {
+    font-weight: bold;
+    background-color: #198754;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.language-icon {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.language .active {
+    opacity: 1;
+}
+
+.copyright a {
+    padding: 0.5rem 1rem;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media only screen and (max-width: 1199.98px) {
+   
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media only screen and (max-width: 991.98px) { 
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media only screen and (max-width: 767.98px) { 
+    .navbar ul li {
+        width: 100%;
+        border: none;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+
+}

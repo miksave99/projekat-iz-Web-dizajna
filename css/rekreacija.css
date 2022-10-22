@@ -1,0 +1,73 @@
+.recreation {
+    background-color: #dbe7db;
+}
+
+.recreation-title {
+    text-align: center;
+    padding: 1em;
+}
+
+.recreation-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+}
+
+.recreation .recreation-item {
+    margin-bottom: 30px;
+}
+
+.recreation .recreation-wrap {
+    border-radius: 8px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.recreation .recreation-wrap img {
+    width: 100%;    
+    transition: 0.3s;
+    height: 300px;
+}
+
+.recreation .recreation-wrap .recreation-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.3s;
+    text-align: center;
+    background: rgba(31, 53, 72, 0.6);
+    padding-bottom: 30px;
+}
+
+.recreation .recreation-wrap .recreation-info h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.recreation .recreation-wrap:hover {
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+}
+
+.recreation .recreation-wrap:hover .recreation-info {
+    opacity: 1;
+    padding-bottom: 0;
+}
+
+.recreation .recreation-wrap:hover img {
+    transform: scale(1.1);
+}

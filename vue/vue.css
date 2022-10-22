@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+  
+html {
+  font-family: "Roboto", sans-serif;
+}
+  
+body {
+  margin: 0;
+  background-color: #dbe7db;
+}
+  
+header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 3rem auto;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color:#b2ccc2;
+  color: dark;
+  text-align: center;
+  width: 100%;
+  max-width: 40rem;
+}
+
+header h1 h2 {
+  font-size: large;
+}
+
+header p {
+  text-align: left;
+}
+
+header ul li {
+  text-align: left;
+}
+
+#app ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#app li {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 1rem auto;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  width: 90%;
+  max-width: 40rem;
+}
+
+#app h2 {
+  font-size: 2rem;
+  color: #424742;
+  margin: 0 0 1rem 0;
+}
+
+#app button {
+  font: inherit;
+  cursor: pointer;
+  border: 2px solid #000000;
+  background-color: #198754;
+  color: #ffffff;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+}
+
+#app button:hover,
+#app button:active {
+  background-color: #424742;
+  border-color: #000000;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+  transition: 0.3s;
+  transform: scale(1.1);
+}
